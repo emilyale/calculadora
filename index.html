@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title> Calculadora </title>
+    <script src="calculadoraEmily.js"> </script>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="container row col-3">
+     <div id="visor" class="containerVisor col-7"></div>
+     <div   class="containerNumbers col-9 row">
+     <div onclick="setarNumero(1)" class="button col-2">1</div>
+     <div onclick="setarNumero(2)" class="button col-2"> 2 </div>
+     <div  onclick="setarNumero(3)" class= "button col-2">3</div>
+     <div onclick="setarOperador('-')" class= "button buttonOperador col-2">-</div>
+     <div onclick="setarNumero(4)" class= "button col-2">4</div>
+     <div onclick="setarNumero(5)" class= "button col-2">5</div>
+     <div onclick="setarNumero(6)" class= "button col-2">6</div>
+     <div onclick="setarOperador('+')" class= "button buttonOperador col-2">+</div>
+     <div onclick="setarNumero(7)" class= "button col-2">7</div>
+     <div onclick="setarNumero(8)" class= "button col-2">8</div>
+     <div onclick="setarNumero(9)" class= "button col-2">9</div>
+     <div onclick="setarOperador('*')" class= "button buttonOperador col-2">*</div>
+     <div onclick="setarNumero('.')" class= "button  col-2">,</div>
+     <div onclick="setarNumero(0)" class= "button col-2">0</div>
+     <div onclick="setarResultado()" class= "button buttonResult col-2">=</div>
+     <div onclick="setarOperador('/')" class= "button buttonOperador col-2">/</div>
+  
+  
+     </div>
+</div>
+</body>
+
+</html>
